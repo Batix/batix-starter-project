@@ -1,4 +1,4 @@
-# Batix Server Code Example #
+# Batix Starter Projekt #
 
 ## Groovy-Code ##
 
