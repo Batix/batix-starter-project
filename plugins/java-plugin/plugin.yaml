@@ -1,0 +1,4 @@
+id: "$id"
+name: Starter Java Plugin
+pluginClass: starter.JavaTestPlugin
+version: "$version"

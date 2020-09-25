@@ -1,0 +1,12 @@
+/*
+ * Copyright (c) 2019 Batix Software GmbH
+ */
+
+// http://confluence.jetbrains.com/display/GRVY/Scripting+IDE+for+DSL+awareness
+// http://www.intelligrape.com/blog/2012/09/25/gdsl-awesomeness-introduction-to-gdsl-in-intellij-idea/
+
+def ctxTableMetadata = context(ctype: "com.batix.table.TableMetadata")
+contributor(ctxTableMetadata) {
+  method(name: "findRecords", params: [criteria: "java.util.List<java.util.List>", props: "java.util.Map"], type: "com.batix.util.BatixRecord[]")
+  method(name: "findRecord", params: [criteria: "java.util.List<java.util.List>", props: "java.util.Map"], type: "com.batix.util.BatixRecord")
+}

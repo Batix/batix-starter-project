@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DynamicElementsStorage">
+    <option name="containingClasses">
+      <map>
+        <entry key="java.lang.Object">
+          <value>
+            <DClassElement>
+              <option name="name" value="java.lang.Object" />
+              <option name="myName" value="java.lang.Object" />
+              <option name="myProperties">
+                <set>
+                  <DPropertyElement>
+                    <option name="name" value="action" />
+                    <option name="static" value="false" />
+                    <option name="type" value="com.batix.action.JspAction" />
+                    <option name="myType" value="com.batix.action.JspAction" />
+                    <option name="myStatic" value="false" />
+                    <option name="myName" value="action" />
+                  </DPropertyElement>
+                  <DPropertyElement>
+                    <option name="name" value="pageData" />
+                    <option name="static" value="false" />
+                    <option name="type" value="com.batix.enterprise.PageData" />
+                    <option name="myType" value="com.batix.enterprise.PageData" />
+                    <option name="myStatic" value="false" />
+                    <option name="myName" value="pageData" />
+                  </DPropertyElement>
+                  <DPropertyElement>
+                    <option name="name" value="filterTag" />
+                    <option name="static" value="false" />
+                    <option name="type" value="com.batix.tags.BatixDesignTag" />
+                    <option name="myType" value="com.batix.tags.BatixDesignTag" />
+                    <option name="myStatic" value="false" />
+                    <option name="myName" value="filterTag" />
+                  </DPropertyElement>
+                  <DPropertyElement>
+                    <option name="name" value="application" />
+                    <option name="static" value="false" />
+                    <option name="type" value="javax.servlet.ServletContext" />
+                    <option name="myType" value="javax.servlet.ServletContext" />
+                    <option name="myStatic" value="false" />
+                    <option name="myName" value="application" />
+                  </DPropertyElement>
+                  <DPropertyElement>
+                    <option name="name" value="navElement" />
+                    <option name="static" value="false" />
+                    <option name="type" value="com.batix.modul.NavigationElement" />
+                    <option name="myType" value="com.batix.modul.NavigationElement" />
+                    <option name="myStatic" value="false" />
+                    <option name="myName" value="navElement" />
+                  </DPropertyElement>
+                  <DPropertyElement>
+                    <option name="name" value="includeTag" />
+                    <option name="static" value="false" />
+                    <option name="type" value="com.batix.tags.GroovyTag" />
+                    <option name="myType" value="com.batix.tags.GroovyTag" />
+                    <option name="myStatic" value="false" />
+                    <option name="myName" value="includeTag" />
+                  </DPropertyElement>
+                  <DPropertyElement>
+                    <option name="name" value="web" />
+                    <option name="static" value="false" />
+                    <option name="type" value="com.batix.modul.Customer" />
+                    <option name="myType" value="com.batix.modul.Customer" />
+                    <option name="myStatic" value="false" />
+                    <option name="myName" value="web" />
+                  </DPropertyElement>
+                  <DPropertyElement>
+                    <option name="name" value="variables" />
+                    <option name="static" value="false" />
+                    <option name="type" value="com.batix.modul.SystemVariables" />
+                    <option name="myType" value="com.batix.modul.SystemVariables" />
+                    <option name="myStatic" value="false" />
+                    <option name="myName" value="variables" />
+                  </DPropertyElement>
+                  <DPropertyElement>
+                    <option name="name" value="request" />
+                    <option name="static" value="false" />
+                    <option name="type" value="javax.servlet.http.HttpServletRequest" />
+                    <option name="myType" value="javax.servlet.http.HttpServletRequest" />
+                    <option name="myStatic" value="false" />
+                    <option name="myName" value="request" />
+                  </DPropertyElement>
+                  <DPropertyElement>
+                    <option name="name" value="response" />
+                    <option name="static" value="false" />
+                    <option name="type" value="javax.servlet.http.HttpServletResponse" />
+                    <option name="myType" value="javax.servlet.http.HttpServletResponse" />
+                    <option name="myStatic" value="false" />
+                    <option name="myName" value="response" />
+                  </DPropertyElement>
+                  <DPropertyElement>
+                    <option name="name" value="session" />
+                    <option name="static" value="false" />
+                    <option name="type" value="javax.servlet.http.HttpSession" />
+                    <option name="myType" value="javax.servlet.http.HttpSession" />
+                    <option name="myStatic" value="false" />
+                    <option name="myName" value="session" />
+                  </DPropertyElement>
+                </set>
+              </option>
+            </DClassElement>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

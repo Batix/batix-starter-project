@@ -1,0 +1,8 @@
+rootProject.name = 'batix-server-template'
+
+
+include 'groovy:main'
+
+include 'plugins:java-plugin'
+
+include 'plugins:kotlin-plugin'

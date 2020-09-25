@@ -1,0 +1,41 @@
+dependencies {
+  compileOnly packagesProvidedByCms
+  testImplementation packagesProvidedByCms
+  testImplementation group: 'log4j', name: 'log4j', version: '1.2.16'
+
+  // https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter
+  testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter', version: '5.6.0'
+}
+
+task packageBatixPlugin(type: Zip, group: "build") {
+  destinationDirectory = file("${buildDir}/dist")
+
+  from("plugin.yaml") {
+    expand([
+      id     : "${project.group}:${project.name}",
+      version: project.version
+    ])
+  }
+
+  from(jar) {
+    into "lib"
+  }
+
+  from(configurations.runtimeClasspath) {
+    into "lib"
+    exclude "slf4j-api-*.jar"
+  }
+
+  from("static") {
+    into "static"
+  }
+}
+assemble.dependsOn(packageBatixPlugin)
+
+test {
+  useJUnitPlatform()
+}
+
+// created automatically, do not modify this line or the lines above!
+// add your custom lines below this line to preserve them on updates
+

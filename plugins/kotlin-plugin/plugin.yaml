@@ -1,0 +1,4 @@
+id: "$id"
+name: Starter Kotlin Plugin
+pluginClass: starter.KotlinTestPlugin
+version: "$version"
